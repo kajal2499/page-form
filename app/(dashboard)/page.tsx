@@ -90,11 +90,11 @@ function StatsCards(props: StatsCardProps) {
 
       <StatsCard
         title="Bounce rate"
-        icon={<TbArrowBounce className="text-green-600" />}
+        icon={<TbArrowBounce className="text-red-600" />}
         helperText="All time from submission rate"
         value={data?.submissionRate.toLocaleString() + "%" || ""}
         loading={loading}
-        className="shadow-md shadow-green-600"
+        className="shadow-md shadow-red-600"
       />
     </div>
   );
