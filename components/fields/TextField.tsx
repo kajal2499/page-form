@@ -128,7 +128,7 @@ function PropertiesComponent({ elementInstance }: { elementInstance: FormElement
     mode: "onBlur",
     defaultValues: {
       label: element.extraAttributes.label,
-      helperText: element.extraAttributes.helperText,
+      // helperText: element.extraAttributes.helperText,
       required: element.extraAttributes.required,
       placeHolder: element.extraAttributes.placeHolder,
     },
@@ -144,7 +144,7 @@ function PropertiesComponent({ elementInstance }: { elementInstance: FormElement
       ...element,
       extraAttributes: {
         label,
-        helperText,
+        // helperText,
         placeHolder,
         required,
       },
